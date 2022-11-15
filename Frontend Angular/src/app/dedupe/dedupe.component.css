@@ -1,0 +1,49 @@
+body{
+   
+    background: linear-gradient(to right, #fcfafb 0%, hsl(0, 0%, 100%) 100%);
+  }
+  nav{
+    background: linear-gradient(to left, #99004d 0%, #00ffea 100%);
+  }
+
+  section{
+    margin:10px 100px 10px 100px ;
+    align-items: center;
+   
+    
+  }
+  label{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .side{
+    padding: auto;
+    position: fixed;
+    z-index: 999;
+    left: 20px;
+    top: 250px;
+}
+.formd{
+    margin-left: 10px;
+}
+#btn{
+  
+  margin-left: 47.5%;
+  margin-bottom: 40px;
+}
+.input-box input[type="submit"]{
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+  font-size: 17px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.input-box input[type="submit"]:hover{
+  letter-spacing: 1px;
+  background: linear-gradient(to left, #99004d 0%, #ff0080 100%);
+}
+
+
